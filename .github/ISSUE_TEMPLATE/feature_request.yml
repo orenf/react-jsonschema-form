@@ -19,6 +19,7 @@ body:
         - core
         - antd
         - bootstrap-4
+        - bootstrap-5
         - chakra-ui
         - fluent-ui
         - material-ui

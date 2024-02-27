@@ -5,6 +5,7 @@ import { Theme as FluentUIRCTheme } from '@rjsf/fluentui-rc';
 import { Theme as SuiTheme } from '@rjsf/semantic-ui';
 import { Theme as AntdTheme } from '@rjsf/antd';
 import { Theme as Bootstrap4Theme } from '@rjsf/bootstrap-4';
+import { Theme as Bootstrap5Theme } from '@rjsf/bootstrap-5';
 import { Theme as ChakraUITheme } from '@rjsf/chakra-ui';
 import v8Validator, { customizeValidator } from '@rjsf/validator-ajv8';
 import v6Validator from '@rjsf/validator-ajv6';
@@ -96,6 +97,10 @@ const themes: PlaygroundProps['themes'] = {
   'bootstrap-4': {
     stylesheet: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css',
     theme: Bootstrap4Theme,
+  },
+  'bootstrap-5': {
+    stylesheet: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css',
+    theme: Bootstrap5Theme,
   },
   'chakra-ui': {
     stylesheet: '',

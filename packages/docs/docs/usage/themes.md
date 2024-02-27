@@ -10,6 +10,7 @@ meaning that you must load the Bootstrap stylesheet on the page to view the form
 | antd                  | Published | `@rjsf/antd`        |
 | Bootstrap 3 (default) | Published | `@rjsf/core`        |
 | Bootstrap 4           | Published | `@rjsf/bootstrap-4` |
+| Bootstrap 5           | Published | `@rjsf/bootstrap-5` |
 | Chakra UI             | Published | `@rjsf/chakra-ui`   |
 | fluent-ui             | Published | `@rjsf/fluent-ui`   |
 | fluentui-rc           | Published | `@rjsf/fluentui-rc` |
