@@ -2,13 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/rjsf-team/react-jsonschema-form">
-    <img src="./react-bootstrap-5-logo.png" alt="Logo" width="140" height="120">
+    <img src="./react-polaris-logo.png" alt="Logo" width="140" height="120">
   </a>
 
-  <h3 align="center">@rjsf/bootstrap-5</h3>
+  <h3 align="center">@rjsf/polaris</h3>
 
   <p align="center">
-  Bootstrap-5 theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
+  Polaris theme, fields and widgets for <a href="https://github.com/mozilla-services/react-jsonschema-form/"><code>react-jsonschema-form</code></a>.
     <br />
     <a href="https://rjsf-team.github.io/react-jsonschema-form/docs/"><strong>Explore the docs »</strong></a>
     <br />
@@ -39,12 +39,12 @@
 
 ## About The Project
 
-Exports `bootstrap-5` theme, fields and widgets for `react-jsonschema-form`.
+Exports `polaris` theme, fields and widgets for `react-jsonschema-form`.
 
 ### Built With
 
 - [react-jsonschema-form](https://github.com/mozilla-services/react-jsonschema-form/)
-- [Bootstrap-5](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Polaris](https://polaris.shopify.com/)
 - [Typescript](https://www.typescriptlang.org/)
 
 <!-- GETTING STARTED -->
@@ -53,32 +53,32 @@ Exports `bootstrap-5` theme, fields and widgets for `react-jsonschema-form`.
 
 ### Prerequisites
 
-- `react-bootstrap >= 2.10.1`
+- `@shopify/polaris >= 12.19.0`
 - `@rjsf/core >= 2.2.0`
 
 ```bash
-yarn add react-bootstrap @rjsf/core
+yarn add @shopify/polaris @rjsf/core
 ```
 
 ### Installation
 
 ```bash
-yarn add @rjsf/bootstrap-5
+yarn add @shopify/polaris
 ```
 
 ## Usage
 
 ```js
-import Form from '@rjsf/bootstrap-5';
+import Form from '@shopify/polaris';
 ```
 
 or
 
 ```js
 import { withTheme } from '@rjsf/core';
-import { Theme as Bootstrap5Theme } from '@rjsf/bootstrap-5';
+import { Theme as PolarisTheme } from '@rjsf/polaris';
 
-const Form = withTheme(Bootstrap5Theme);
+const Form = withTheme(PolarisTheme);
 ```
 
 <!-- CONTRIBUTING -->

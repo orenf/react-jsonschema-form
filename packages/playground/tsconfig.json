@@ -31,6 +31,7 @@
     { "path": "../fluentui-rc" },
     { "path": "../material-ui" },
     { "path": "../mui" },
+    { "path": "../polaris" },
     { "path": "../semantic-ui" },
     { "path": "../utils" },
     { "path": "../validator-ajv6" },

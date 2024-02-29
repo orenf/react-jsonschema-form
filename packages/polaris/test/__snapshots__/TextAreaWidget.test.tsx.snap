@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextareaWidget simple with errors 1`] = `
+[
+  <div
+    className="Polaris-BlockStack"
+    style={
+      {
+        "--pc-block-stack-gap-xs": "var(--p-space-400)",
+        "--pc-block-stack-order": "column",
+      }
+    }
+  >
+    <div
+      className="Polaris-FormLayout__Item Polaris-FormLayout--grouped"
+    >
+      <div
+        className="Polaris-Labelled--readOnly"
+      >
+        <div
+          className="Polaris-Connected"
+        >
+          <div
+            className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <div
+              className="Polaris-TextField Polaris-TextField--hasValue Polaris-TextField--readOnly Polaris-TextField--multiline"
+              onClick={[Function]}
+            >
+              <textarea
+                aria-invalid={false}
+                aria-labelledby="_idLabel"
+                aria-multiline={true}
+                autoComplete="nope"
+                autoFocus={true}
+                className="Polaris-TextField__Input"
+                disabled={false}
+                id="_id"
+                name="_id"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                readOnly={true}
+                rows={5}
+                style={null}
+                type="text"
+                value="value"
+              />
+              <div
+                className="Polaris-TextField__Backdrop"
+              />
+              <div
+                aria-hidden={true}
+                className="Polaris-TextField__Resizer"
+              >
+                <div
+                  className="Polaris-TextField__DummyInput"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": "value<br>",
+                    }
+                  }
+                />
+                <div
+                  className="Polaris-TextField__DummyInput"
+                  dangerouslySetInnerHTML={
+                    {
+                      "__html": "<br><br><br><br><br>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="PolarisPortalsContainer"
+  />,
+]
+`;
+
+exports[`TextareaWidget simple without errors 1`] = `
+[
+  <div
+    className="Polaris-BlockStack"
+    style={
+      {
+        "--pc-block-stack-gap-xs": "var(--p-space-400)",
+        "--pc-block-stack-order": "column",
+      }
+    }
+  >
+    <div
+      className="Polaris-FormLayout__Item Polaris-FormLayout--grouped"
+    >
+      <div
+        className="Polaris-Labelled--readOnly"
+      >
+        <div
+          className="Polaris-Connected"
+        >
+          <div
+            className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <div
+              className="Polaris-TextField Polaris-TextField--hasValue Polaris-TextField--readOnly Polaris-TextField--multiline"
+              onClick={[Function]}
+            >
+              <textarea
+                aria-invalid={false}
+                aria-labelledby="_idLabel"
+                aria-multiline={true}
+                autoComplete="nope"
+                autoFocus={true}
+                className="Polaris-TextField__Input"
+                disabled={false}
+                id="_id"
+                name="_id"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                readOnly={true}
+                rows={5}
+                style={null}
+                type="text"
+                value="value"
+              />
+              <div
+                className="Polaris-TextField__Backdrop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="PolarisPortalsContainer"
+  />,
+]
+`;
+
+exports[`TextareaWidget simple without required 1`] = `
+[
+  <div
+    className="Polaris-BlockStack"
+    style={
+      {
+        "--pc-block-stack-gap-xs": "var(--p-space-400)",
+        "--pc-block-stack-order": "column",
+      }
+    }
+  >
+    <div
+      className="Polaris-FormLayout__Item Polaris-FormLayout--grouped"
+    >
+      <div
+        className="Polaris-Labelled--readOnly"
+      >
+        <div
+          className="Polaris-Connected"
+        >
+          <div
+            className="Polaris-Connected__Item Polaris-Connected__Item--primary"
+            onBlur={[Function]}
+            onFocus={[Function]}
+          >
+            <div
+              className="Polaris-TextField Polaris-TextField--hasValue Polaris-TextField--readOnly Polaris-TextField--multiline"
+              onClick={[Function]}
+            >
+              <textarea
+                aria-invalid={false}
+                aria-labelledby="_idLabel"
+                aria-multiline={true}
+                autoComplete="nope"
+                autoFocus={true}
+                className="Polaris-TextField__Input"
+                disabled={false}
+                id="_id"
+                name="_id"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyPress={[Function]}
+                placeholder=""
+                readOnly={true}
+                rows={5}
+                style={null}
+                type="text"
+                value="value"
+              />
+              <div
+                className="Polaris-TextField__Backdrop"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="PolarisPortalsContainer"
+  />,
+]
+`;

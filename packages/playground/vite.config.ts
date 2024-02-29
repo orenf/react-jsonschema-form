@@ -18,6 +18,7 @@ export default defineConfig({
       '@rjsf/antd': path.resolve(__dirname, '../antd/src'),
       '@rjsf/bootstrap-4': path.resolve(__dirname, '../bootstrap-4/src'),
       '@rjsf/bootstrap-5': path.resolve(__dirname, '../bootstrap-5/src'),
+      '@rjsf/polaris': path.resolve(__dirname, '../polaris/src'),
       '@rjsf/chakra-ui': path.resolve(__dirname, '../chakra-ui/src'),
       '@rjsf/core': path.resolve(__dirname, '../core/src'),
       '@rjsf/fluent-ui': path.resolve(__dirname, '../fluent-ui/src'),

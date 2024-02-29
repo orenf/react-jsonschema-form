@@ -6,6 +6,7 @@ import { Theme as SuiTheme } from '@rjsf/semantic-ui';
 import { Theme as AntdTheme } from '@rjsf/antd';
 import { Theme as Bootstrap4Theme } from '@rjsf/bootstrap-4';
 import { Theme as Bootstrap5Theme } from '@rjsf/bootstrap-5';
+import { Theme as PolarisTheme } from '@rjsf/polaris';
 import { Theme as ChakraUITheme } from '@rjsf/chakra-ui';
 import v8Validator, { customizeValidator } from '@rjsf/validator-ajv8';
 import v6Validator from '@rjsf/validator-ajv6';
@@ -121,6 +122,10 @@ const themes: PlaygroundProps['themes'] = {
   'material-ui-5': {
     stylesheet: '',
     theme: MuiV5Theme,
+  },
+  polaris: {
+    stylesheet: 'https://unpkg.com/@shopify/polaris@latest/build/esm/styles.css',
+    theme: PolarisTheme,
   },
   'semantic-ui': {
     stylesheet: '//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css',
